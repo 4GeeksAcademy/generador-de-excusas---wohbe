@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+#boton {
+  background-color: #a90110;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#boton:hover {
+  background-color: #7a030d;
+}
+
+#contenedor-excusa {
+  margin-top: 20px;
+}
